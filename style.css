@@ -4,24 +4,6 @@ body {
     width: 100vw;
 }
 
-.search-box{
-    height: 80px;
-    align-items: flex-start;
-    
-    
-}
-
-.search-text {
-    
-    background: none;
-    font-size: 40px;
-    background-color:white
-}
-
-.search-btn {
-    font-size: 30px;
-    align-items: flex-start;
-}
 
 a{
     color: black;
@@ -39,8 +21,11 @@ i{
 
 .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    font-size: 35px;
 
 }
 
@@ -50,17 +35,22 @@ i{
 }
 
 .casa {
+    border: 2px;
+    padding: 0%;
+    max-width: 1800px;
+    height: 1800px;
     display: flex;
-    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap
+    
     
 }
-    
-#all-container{
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    max-width: 100%;
-    max-height: 100%;
-    overflow: auto;
+
+.item {
+    border: 2px;
+    height: 320px;
+    width: 320px;
 }
+    
 
