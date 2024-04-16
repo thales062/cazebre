@@ -7,109 +7,67 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" href="cazebre250.jpg" type="image/x-icon">
     <title>cazebre.com.br</title>
-    <style>
-        body {
-            font: normal 16px Arial, Verdana, serif;
-            text-align: left;
-        }
-
-        h2 {
-            text-align: center; 
-        }
-    </style>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
 
-    <style>
-        body{
-            font-family: Arial,sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-
-        .search-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .search-bar {
-            width: 400px;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .search-button {
-            background-color: #ff5a5f;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-left: 10px;
-        }
-    </style>
 </head>
 
 <body style="background-color:white;color: peru;">
 
-   
-    
-
-
-
-          <div class="search-container">
-            <input type="text" class="search-bar" placeholder="onde / check-in / check-out / quem">
-            <button class="search-button">Search</button>
-
-          </div>
-
-          
-           
-     
-     <h2 class="cazebre">o que você procura ?</h2>
-
-            <main class="container">
-    
-                <a href="#">casas /</a>
-                <a href="#">apartamentos /</a>
-                <a href="#">chácaras</a>
-                
-                
-                
-    
-            </main>
-    
-            <h2 class="cazebre">Aqui você encontra os lugares mais preferidos pelos hóspedes!</h2>
-    
-                <div class="casa">
-
-                    
-    
-    
-                 <div class="item"> <img src="porto de galinhas350.jpg" alt="" width="200" height="200"></div>
-                 <div class="item"> <a href="#">Casa à Beira Mar, Porto de Galinhas, Ipojuca</a></div>
-                 <div class="item"> <img src="piscina natural450.webp" alt="" width="200" height="200"></div>
-                 <div class="item"> <a href="#">Piscina Natural,Barreiras dos Recifes, Maragogi</a></div>
-                 <div class="item"> <img src="praia 450.jpg" alt="" width="200" height="200"></div>
-                 <div class="item"> <a href="#">Praia no Nordeste, Maceió, Alagoas</a></div>
-                 <div class="item"> <img src="lago450.jpg" alt="" width="200" height="200"></div>
-                 <div class="item"> <a href="#">Lençois Maranhenses, Maranhão</a></div>
-    
-                </div>
-
-                 
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="onde / check-in / check-out / quem">
+        <button onclick="window.location.href = 'pagina destino html'"  class="search-button">Search</button>
 
     </div>
 
+    <button id="openModalBtn">abrir modal</button>
+
     
 
+    <h2 class="cazebre">o que você procura ?</h2>
+
+    <div class="container">
+
+        <a href="#">casas /</a>
+        <a href="#">apartamentos /</a>
+        <a href="#">chácaras</a>
+
+
+
+
+    </div>
+
+    <h2 class="cazebre">Aqui você encontra os lugares mais preferidos pelos hóspedes!</h2>
+
+    <div class="casa">
+
+
+
+
+        <div class="item"> <img src="porto de galinhas350.jpg" alt="" width="200" height="200"></div>
+        <div class="item"> <a href="#">Casa à Beira Mar, Porto de Galinhas, Ipojuca</a></div>
+        <div class="item"> <img src="piscina natural450.webp" alt="" width="200" height="200"></div>
+        <div class="item"> <a href="#">Piscina Natural,Barreiras dos Recifes, Maragogi</a></div>
+        <div class="item"> <img src="praia 450.jpg" alt="" width="200" height="200"></div>
+        <div class="item"> <a href="#">Praia no Nordeste, Maceió, Alagoas</a></div>
+        <div class="item"> <img src="lago450.jpg" alt="" width="200" height="200"></div>
+        <div class="item"> <a href="#">Lençois Maranhenses, Maranhão</a></div>
+
+    </div>
+
+
+
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span id="close" class="close">fechar</span>
+            <h2>Filtros</h2>
+            <hr>
+            <p>Tipos de Acomodação</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 
 </body>
 

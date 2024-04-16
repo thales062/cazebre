@@ -1,7 +1,12 @@
 body {
+    /* height: 100vh;
+    width: 100vw; */
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;
+    font-family: Arial, sans-serif;
     margin: 0;
-    height: 100vh;
-    width: 100vw;
+    padding: 0;
+    background-color:#f2f2f2 ;
 }
 
 
@@ -38,7 +43,7 @@ i{
     border: 2px;
     padding: 0%;
     max-width: 1800px;
-    height: 1800px;
+    height: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,3 +59,72 @@ i{
 }
     
 
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto;
+
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.search-bar {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-button {
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
