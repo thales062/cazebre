@@ -20,8 +20,6 @@ window.onclick = function(event) {
 }
 
 
-
-
     
 
     

@@ -1,12 +1,12 @@
 body {
     /* height: 100vh;
     width: 100vw; */
-    font: normal 16px Arial, Verdana, serif;
+    font: 16px normal;
     text-align: left;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#f2f2f2 ;
+    background-color: #fff;
 }
 
 
@@ -101,54 +101,62 @@ h2 {
 }
 
 
-
-.search-onde {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-}
-
-.search-bar {
-    width: 250px;
-    padding: 10px;
-    border: none;
-    border-radius: 18px;
-    font-size: 17px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .search-button {
     background-color: #ff5a5f;
     color: #fff;
     border: none;
-    border-radius: 15px;
-    padding: 10px 20px;
+    border-radius: 20px;
+    padding: 20px;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
-.search-quem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-   
-}
 
-.search-chekin-chekout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-   
-}
 
 .barras {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    outline: #aaa;
+    height: 100vh;
+    width: 100%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+   
+}
+
+.barras form label {
+    font-weight: 500;
+}
+
+.barras form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:white;
+    border-radius: 50px;
+    
+}
+
+.barras form input {
+    display: block;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+   
 
 }
+
+.label {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+
+    
+    
+
+
