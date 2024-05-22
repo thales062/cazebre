@@ -19,6 +19,10 @@ window.onclick = function(event) {
     }
 }
 
+function redirecionar() {
+    window.location.href = "index (2).html";
+}
+
 
     
 
